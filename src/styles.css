@@ -1,0 +1,21 @@
+.background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: auto;
+}
+
+@media (min-width: 3440px) {
+  .background {
+    width: 100%;
+  }
+}
+
+@media (min-height: 1440px) {
+  .background {
+    height: 100%;
+  }
+}
