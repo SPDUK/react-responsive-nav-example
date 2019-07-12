@@ -103,6 +103,46 @@ const columnDropdown = {
     }
   ]
 };
+
+const iconDropdown = {
+  title: 'Company',
+  links: [
+    {
+      link: <Link to="/full-api">Full API Reference</Link>,
+      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+    },
+    {
+      link: <Link to="/full-api">Full API Reference</Link>,
+      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+    },
+    {
+      link: <Link to="/full-api">Full API Reference</Link>,
+      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+    },
+    {
+      link: <Link to="/full-api">Full API Reference</Link>,
+      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+    },
+    {
+      link: <Link to="/full-api">Full API Reference</Link>,
+      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+    },
+    {
+      link: <Link to="/full-api">Full API Reference</Link>,
+      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+    }
+  ],
+  footerTitle: {
+    link: <Link to="/blog">FROM THE BLOG</Link>,
+    icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/pen.svg'
+  },
+  footerLinks: [
+    <Link to="/apple">Apple Pay</Link>,
+    <Link to="/apple">Apple Pay</Link>,
+    <Link to="/apple">A new and improved onboarding flow for Everyone</Link>
+  ]
+};
+
 const links = [<Link to="/support">Support</Link>];
 const authLink = <Link to="/signin">Sign In &rarr;</Link>;
 const mobileLinks = [
@@ -120,11 +160,13 @@ function App() {
   return (
     <>
       <Navbar
-        debug
+        // debug
         duration={200}
         logo="Example"
+        columnWidth="120"
         primaryDropdown={primaryDropdown}
         columnDropdown={columnDropdown}
+        iconDropdown={iconDropdown}
         links={links}
         authLink={authLink}
         mobileLinks={mobileLinks}
