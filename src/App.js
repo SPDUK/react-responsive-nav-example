@@ -79,10 +79,12 @@ const primaryDropdown = {
 
 const columnDropdown = {
   title: 'Developers',
+  color: 'rgb(131,205,41)',
   primaryLink: {
     subtitle: "Start integrating Stripe's products and tools.",
-    link: <Link to="/documentation">Documentation</Link>,
-    icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/document.svg'
+    link: <Link to="/node">Node.js</Link>,
+    icon:
+      'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
   },
   firstColumn: {
     title: 'Get Started',
@@ -105,15 +107,18 @@ const columnDropdown = {
   footerLinks: [
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
     }
   ]
 };
