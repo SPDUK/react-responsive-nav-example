@@ -14,57 +14,66 @@ const primaryDropdown = {
   title: 'Products',
   links: [
     {
-      link: <Link to="/payments">Payments</Link>,
+      link: <Link to="/elixir">Elixir</Link>,
       text: 'A complete payments plaform engineered for growth.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556303055/Portfolio/logo-elixir.svg',
+      color: 'rgb(103, 114, 229)'
     },
     {
-      link: <a href="https://www.google.com">Google</a>,
+      link: <a href="https://www.mongodb.com/">MongoDB</a>,
       text: 'A complete payments plaform engineered for growth.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302711/Portfolio/mongodb-original.svg',
+      color: 'rgb(36, 180, 126)'
     },
     {
-      link: <Link to="/payments">Payments</Link>,
+      link: <Link to="/react">React</Link>,
       text: 'A complete payments plaform engineered for growth.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302728/Portfolio/react-original.svg',
+      color: 'rgb(50, 151, 211);'
     },
     {
-      link: <a href="https://www.google.com">Google</a>,
+      link: <a href="https://www.heroku.com/">Heroku</a>,
       text: 'Your business data at your fingertips.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302631/Portfolio/heroku-original.svg',
+      color: 'rgb(103, 114, 229)'
     },
     {
-      link: <Link to="/payments">Payments</Link>,
+      link: <Link to="/html">HTML</Link>,
       text: 'Your business data at your fingertips.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302614/Portfolio/html5-original.svg',
+      color: 'rgb(241,101,41)'
     },
     {
-      link: <a href="https://www.google.com">Google</a>,
+      link: <a href="https://redux.js.org/introduction/getting-started">Redux</a>,
       text: 'Your business data at your fingertips.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556304989/Portfolio/redux-original.svg',
+      color: 'rgb(183, 106, 196)'
     },
     {
-      link: <Link to="/payments">Payments</Link>,
+      link: <Link to="/ruby">Ruby</Link>,
       text: 'Your business data at your fingertips.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302738/Portfolio/ruby-original.svg',
+      color: 'rgb(201,49,31)'
     },
     {
-      link: <a href="https://www.google.com">Google</a>,
+      link: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>,
       text: 'Your business data at your fingertips.',
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/dribbble.svg',
-      color: '#fff'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302682/Portfolio/javascript-original.svg',
+      color: 'rgb(240,219,79)'
     }
   ],
   footerLink: {
-    link: <Link to="/works-with">Works With Stripe</Link>,
-    icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/bill.svg'
+    link: <Link to="/webpack">WEBPACK IS COOL TOO</Link>,
+    icon:
+      'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
   }
 };
 
