@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import Navbar from 'react-responsive-nav';
-import { Navbar } from 'react-responsive-nav';
+import {
+  Navbar,
+  ContentGroup,
+  PrimaryDropdown,
+  IconDropdown,
+  ColumnDropdown
+} from 'react-responsive-nav';
 import Body from './Body';
 import './styles.css';
 
@@ -143,8 +148,10 @@ const iconDropdown = {
   ]
 };
 
-const links = [<Link to="/support">Support</Link>];
-const authLink = <Link to="/signin">Sign In &rarr;</Link>;
+const authLinks = [
+  <Link to="/signin">Sign In &rarr;</Link>,
+  <Link to="/signup">Sign Up &rarr;</Link>
+];
 const mobileLinks = [
   <Link to="/pricing">Pricing</Link>,
   <Link to="/pricing">Works With Stripe</Link>,
@@ -165,12 +172,26 @@ function App() {
         logo="Example"
         columnWidth="120"
         primaryDropdown={primaryDropdown}
-        columnDropdown={columnDropdown}
-        iconDropdown={iconDropdown}
-        links={links}
-        authLink={authLink}
+        mobileFooterLinks={authLinks}
         mobileLinks={mobileLinks}
-      />
+        breakpoint={900}
+      >
+        <ContentGroup title={primaryDropdown.title} height="630" width="495">
+          <PrimaryDropdown primaryDropdown={primaryDropdown} />
+        </ContentGroup>
+        <ContentGroup title={columnDropdown.title} height="408" width="440">
+          <ColumnDropdown columnDropdown={columnDropdown} />
+        </ContentGroup>
+        <ContentGroup title={iconDropdown.title} height="442" width="420">
+          <IconDropdown iconDropdown={iconDropdown} />
+        </ContentGroup>
+        <ContentGroup title="Sign In" height="200" width="350">
+          <ul>
+            <li>Create custom sign in form here</li>
+            <li>Add a link to sign up here</li>
+          </ul>
+        </ContentGroup>
+      </Navbar>
       <Body />
     </>
   );
