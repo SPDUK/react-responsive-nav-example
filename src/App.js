@@ -125,39 +125,47 @@ const columnDropdown = {
 
 const iconDropdown = {
   title: 'Company',
+  color: 'rgb(50, 151, 211);',
   links: [
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
       link: <Link to="/full-api">Full API Reference</Link>,
-      icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/search-alt.svg'
+      icon:
+        'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     }
   ],
   footerTitle: {
     link: <Link to="/blog">FROM THE BLOG</Link>,
-    icon: 'https://unicons.iconscout.com/release/v1.0.0/svg/pen.svg'
+    icon:
+      'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
   },
   footerLinks: [
-    <Link to="/apple">Apple Pay</Link>,
-    <Link to="/apple">Apple Pay</Link>,
+    <Link to="/apple">A new and improved onboarding flow for Everyone</Link>,
+    <Link to="/apple">A new and improved onboarding flow for Everyone</Link>,
     <Link to="/apple">A new and improved onboarding flow for Everyone</Link>
   ]
 };
