@@ -89,34 +89,34 @@ const columnDropdown = {
   firstColumn: {
     title: 'Get Started',
     links: [
-      <Link to="/get-started">Get Started</Link>,
-      <Link to="/get-started">Get Started</Link>,
-      <Link to="/get-started">Get Started</Link>,
-      <Link to="/get-started">Get Started</Link>
+      <Link to="/get-started1">Get Started</Link>,
+      <Link to="/get-started2">Get Started</Link>,
+      <Link to="/get-started3">Get Started</Link>,
+      <Link to="/get-started4">Get Started</Link>
     ]
   },
   secondColumn: {
     title: 'Popular Topics',
     links: [
-      <Link to="/apple">Apple Pay</Link>,
-      <Link to="/apple">Apple Pay</Link>,
-      <Link to="/apple">Apple Pay</Link>,
-      <Link to="/apple">Apple Pay</Link>
+      <Link to="/apple1">Apple Pay</Link>,
+      <Link to="/apple2">Apple Pay</Link>,
+      <Link to="/apple3">Apple Pay</Link>,
+      <Link to="/apple4">Apple Pay</Link>
     ]
   },
   footerLinks: [
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api1">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api2">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api3">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302721/Portfolio/nodejs-original.svg'
     }
@@ -128,32 +128,32 @@ const iconDropdown = {
   color: 'rgb(50, 151, 211);',
   links: [
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api1">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api2">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api3">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api4">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api5">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     },
     {
-      link: <Link to="/full-api">Full API Reference</Link>,
+      link: <Link to="/full-api6">Full API Reference</Link>,
       icon:
         'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
     }
@@ -164,9 +164,9 @@ const iconDropdown = {
       'https://res.cloudinary.com/dmjolhdaq/image/upload/v1556302786/Portfolio/webpack-original.svg'
   },
   footerLinks: [
-    <Link to="/apple">A new and improved onboarding flow for Everyone</Link>,
-    <Link to="/apple">A new and improved onboarding flow for Everyone</Link>,
-    <Link to="/apple">A new and improved onboarding flow for Everyone</Link>
+    <Link to="/apple1">A new and improved onboarding flow for Everyone</Link>,
+    <Link to="/apple2">A new and improved onboarding flow for Everyone</Link>,
+    <Link to="/apple3">A new and improved onboarding flow for Everyone</Link>
   ]
 };
 
@@ -175,14 +175,14 @@ const authLinks = [
   <Link to="/signup">Sign Up &rarr;</Link>
 ];
 const mobileLinks = [
-  <Link to="/pricing">Pricing</Link>,
-  <Link to="/pricing">Works With Stripe</Link>,
-  <Link to="/pricing">Partner Program</Link>,
-  <Link to="/pricing">Documentation</Link>,
-  <Link to="/pricing">About Stripe</Link>,
-  <Link to="/pricing">Jobs</Link>,
-  <Link to="/pricing">Newsroom</Link>,
-  <Link to="/pricing">Blog</Link>
+  <Link to="/pricing1">Pricing1</Link>,
+  <Link to="/pricing2">Works With Stripe</Link>,
+  <Link to="/pricing3">Partner Program</Link>,
+  <Link to="/pricing4">Documentation</Link>,
+  <Link to="/pricing5">About Stripe</Link>,
+  <Link to="/pricing6">Jobs</Link>,
+  <Link to="/pricing7">Newsroom</Link>,
+  <Link to="/pricing8">Blog</Link>
 ];
 
 function App() {
