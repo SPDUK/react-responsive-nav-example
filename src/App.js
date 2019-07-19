@@ -175,7 +175,7 @@ const authLinks = [
   <Link to="/signup">Sign Up &rarr;</Link>
 ];
 const mobileLinks = [
-  <Link to="/pricing1">Pricing1</Link>,
+  <Link to="/pricing1">Pricing</Link>,
   <Link to="/pricing2">Works With Stripe</Link>,
   <Link to="/pricing3">Partner Program</Link>,
   <Link to="/pricing4">Documentation</Link>,
